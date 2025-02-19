@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">stopwatch</string>
+
+
+    <string name="alarm">Будильник</string>
+    <string name="settings">Настройки</string>
+    <string name="done">Готово</string>
+    <string name="cancel">Отмена</string>
+    <string name="new_signals">Новый сигнал</string>
+    <string name="stopwatch">Секундомер</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="reset">Сброс</string>
+    <string name="continue1">Продолжить</string>
+
+</resources>

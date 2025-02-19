@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg">
+
+    <RelativeLayout
+        android:id="@+id/entrance_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Войти в аккаунт"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal|top" />
+            <EditText
+                android:id="@+id/PhoneEditText"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:hint="Номер телефона"
+                android:textSize="25dp"
+                android:textColorHint="@color/white" />
+            <EditText
+                android:id="@+id/PasswordEditText"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:hint="Пароль"
+                android:textSize="25dp"
+                android:textColorHint="@color/white" />
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:text="Войти"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/bg1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/not_admin_panel_link"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:visibility="invisible"
+                    android:text="@string/client"/>
+                <TextView
+                    android:id="@+id/admin_panel_link"
+                    android:layout_width="91dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="180dp"
+                    android:gravity="center"
+                    android:text="@string/admin"
+                    android:textColor="@color/white"
+                    android:visibility="visible"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+<RelativeLayout
+    android:id="@+id/first_entrance_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Войдите или зарегистрируйтесь"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="15dp"/>
+
+<LinearLayout
+    android:id="@+id/linear_entrance"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="250dp">
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Зарегистрироваться"
+        android:textSize="25dp"
+        android:backgroundTint="@color/bg1"
+        android:onClick="OnGoReg"/>
+
+    <Button
+        android:id="@+id/tp_login_button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:text="Войти"
+        android:textSize="25dp"
+        android:onClick="OnEntrance"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/bg1"/>
+</LinearLayout>
+
+</RelativeLayout>
+
+</RelativeLayout>

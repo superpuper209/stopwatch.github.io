@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">registration</string>
+
+    <string name="entrance">вход</string>
+    <string name="password_recovery">Забыли пароль?</string>
+    <string name="remember">Запомнить меня</string>
+    <string name="admin">Для админа</string>
+    <string name="client">Для клиентов</string>
+
+</resources>

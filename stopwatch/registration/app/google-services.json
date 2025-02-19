@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069166045222",
+    "project_id": "registration-a67be",
+    "storage_bucket": "registration-a67be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069166045222:android:1aadc70864959401915ee7",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCqL4O5aNyHGUe7b3hnPIsBVQSEu3_JAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
